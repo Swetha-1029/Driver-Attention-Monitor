@@ -1,10 +1,8 @@
-# Real-Time Driver Attention Monitoring System
+👁️ Driver Attention Monitor — Real-Time Drowsiness Detection
+A real-time driver attention monitoring system built with Python, OpenCV, MediaPipe and Flask.
+Detects eye closure, yawning, and head pose — combining them into a live Attention Score (0–100%) with a web dashboard and audio alerts.
 
-## Overview
-A Python + OpenCV based system that monitors driver alertness in real-time using a webcam.
-Combines Eye Aspect Ratio (EAR), Mouth Aspect Ratio (MAR), and Head Pose into a unified
-**Driver Attention Score (0–100%)** with audio alerts.
-
+💡 Built during my internship in 2024.
 ---
 
 ## Project Structure
@@ -101,3 +99,6 @@ Score < 50% → RED alert + audio beep
 - Streamlit web dashboard
 - Raspberry Pi deployment with dashboard camera
 - SMS alert to emergency contact
+
+## Author
+Swetha
